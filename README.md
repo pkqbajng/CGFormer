@@ -55,4 +55,5 @@ If you have problems, please contact zhu.yu.pk@gmail.com
 ## To do
 
 - Getting started
+- Releasing code (it may take about one week to organize code)
 - Model Zoo
