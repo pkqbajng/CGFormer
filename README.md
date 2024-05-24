@@ -22,7 +22,7 @@ Schematics and detailed architectures of CGFormer. (a) The framework of the prop
 
 ## Acknowledgement
 
-Many thanks to these excellent open source projects:
+Many thanks to these exceptional open source projects:
 - [BEVFormer](https://github.com/fundamentalvision/BEVFormer)
 - [mmdet3d](https://github.com/open-mmlab/mmdetection3d)
 - [MonoScene](https://github.com/astra-vision/MonoScene)
@@ -37,7 +37,7 @@ As it is not possible to list all the projects of the reference papers. If you f
 
 ## Bibtex
 
-If you find our work useful in your research, please consider citing our paper and give us a star:
+If you find our work beneficial for your research, please consider citing our paper and give us a star:
 
 ```
 @misc{CGFormer,
@@ -50,10 +50,10 @@ If you find our work useful in your research, please consider citing our paper a
 }
 ```
 
-If you have problems, please contact zhu.yu.pk@gmail.com
+If you encounter any issues, please contact zhu.yu.pk@gmail.com or open an issue open an issue on GitHub.
 
 ## To do
 
-- Getting started
-- Releasing code (it may take about one week to organize code)
-- Model Zoo
+- Prepare a getting started guide
+- Release the code (approximately one week for code organization)
+- Create a Model Zoo
