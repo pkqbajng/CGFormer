@@ -50,7 +50,7 @@ If you find our work beneficial for your research, please consider citing our pa
 }
 ```
 
-If you encounter any issues, please contact zhu.yu.pk@gmail.com or open an issue open an issue on GitHub.
+If you encounter any issues, please contact zhu.yu.pk@gmail.com.
 
 ## To do
 
