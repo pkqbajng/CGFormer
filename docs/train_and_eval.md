@@ -1,6 +1,6 @@
 ## Training Details
 
-We train CGFormer for 25 epochs on 4 NVIDIA 4090 GPUs, with a batch size of 4. It approximately consumes 19GB of GPU memory on each GPU during the training phase.
+We train CGFormer for 25 epochs on 4 NVIDIA 4090 GPUs, with a batch size of 4. It approximately consumes 19GB of GPU memory on each GPU during the training phase. Before start training, download the corresponding pretrained checkpoints from this [link](https://drive.google.com/drive/folders/1caNRjcGyBi6iUfQgGxMJB5SH69b5M90h?usp=sharing) and put them under the folder pretrain.
 
 ## Train
 
