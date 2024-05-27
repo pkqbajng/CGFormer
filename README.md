@@ -3,6 +3,7 @@
 ## 🚀 News
 
 - **2024.5.24** [**arXiv**](https://arxiv.org/abs/2405.13675) preprint released
+- **2024.5.27** code released
 
 ## Introduction
 
