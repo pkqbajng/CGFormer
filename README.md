@@ -60,6 +60,5 @@ If you encounter any issues, please contact zhu.yu.pk@gmail.com.
 
 ## To do
 
-- Prepare a getting started guide
-- Release the code (approximately one week for code organization)
 - Create a Model Zoo
+- Visualization scripts
