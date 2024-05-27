@@ -1,6 +1,6 @@
-data_root = '/home/yz/dataset/semantickitti'
-ann_file = '/home/yz/dataset/semantickitti/labels'
-stereo_depth_root = '/home/yz/dataset/semantickitti/depth'
+data_root = './dataset/semantickitti'
+ann_file = './dataset/semantickitti/labels'
+stereo_depth_root = './dataset/semantickitti/depth'
 camera_used = ['left']
 # camera_used = ['left']
 

@@ -1,6 +1,6 @@
-data_root = '/home/yz/dataset/SSCBenchKITTI360'
-ann_file = '/home/yz/dataset/SSCBenchKITTI360/labels'
-stereo_depth_root = '/home/yz/dataset/SSCBenchKITTI360/depth'
+data_root = './dataset/SSCBenchKITTI360'
+ann_file = './dataset/SSCBenchKITTI360/labels'
+stereo_depth_root = './dataset/SSCBenchKITTI360/depth'
 camera_used = ['left']
 
 dataset_type = 'KITTI360Dataset'
