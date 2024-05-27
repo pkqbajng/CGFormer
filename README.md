@@ -26,6 +26,8 @@ step 1. Refer to [install.md](./docs/install.md) to install the environment.
 
 step 2. Refer to [dataset.md](./docs/dataset.md) to prepare SemanticKITTI and KITTI360 dataset.
 
+step 3. Refer to [train_and_eval.md](./docs/train_and_eval.md) for training and evaluation.
+
 ## Acknowledgement
 
 Many thanks to these exceptional open source projects:
