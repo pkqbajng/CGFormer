@@ -1,0 +1,11 @@
+mmengine
+timm
+open3d-python
+easydict
+fvcore
+einops
+torchmetrics
+spconv-cu113
+natten==0.14.6+torch1101cu113 -f https://shi-labs.com/natten/wheels
+pytorch-lightning==1.7.0
+setuptools==59.5.0
