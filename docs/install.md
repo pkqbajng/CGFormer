@@ -54,4 +54,5 @@ pip install -r docs/requirements.txt
 
 ```shell
 pip install yapf==0.40.0
+pip3 install natten==0.14.6+torch1101cu113 -f https://shi-labs.com/natten/wheels
 ```
