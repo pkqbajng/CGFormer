@@ -9,34 +9,6 @@ from .utils import get_inv_map
 import time
 import mmcv
 
-import warnings
- 
-warnings.filterwarnings('ignore', module='mmcv')
-
-kitti_class_names = [
-    "empty",
-    "car",
-    "bicycle",
-    "motorcycle",
-    "truck",
-    "other-vehicle",
-    "person",
-    "bicyclist", # 7
-    "motorcyclist",
-    "road",
-    "parking",
-    "sidewalk",
-    "other-ground",
-    "building", # 13
-    "fence", # 14
-    "vegetation",
-    "trunk",
-    "terrain", # 17
-    "pole",
-    "traffic-sign",
-]
-
-
 class pl_model(LightningBaseModel):
     def __init__(
         self,
@@ -45,8 +17,9 @@ class pl_model(LightningBaseModel):
 
         model_config = config['model']
         self.model = build_model(model_config)
-        checkpoint = torch.load(config['load_from'])['state_dict']
-        self.model.load_state_dict(checkpoint, strict=False)
+        if 'load_from' in config:
+            checkpoint = torch.load(config['load_from'])['state_dict']
+            self.model.load_state_dict(checkpoint, strict=False)
         
         self.num_class = config['num_class']
         self.class_names = config['class_names']
