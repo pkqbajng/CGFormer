@@ -11,7 +11,6 @@ from pytorch_lightning.profiler import SimpleProfiler
 from pytorch_lightning.strategies.ddp import DDPStrategy
 from pytorch_lightning.callbacks import ModelCheckpoint, LearningRateMonitor
 
-from mmdet3d.models.necks import second_fpn
 def parse_config():
     parser = ArgumentParser()
     parser.add_argument('--config_path', default='./configs/semantic_kitti.py')
