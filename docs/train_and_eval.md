@@ -12,13 +12,15 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py \
 --log_every_n_steps 100
 ```
 
-The training logs and checkpoints will be saved under the log_folder
+The training logs and checkpoints will be saved under the log_folder、
 
 ## Evaluation
 
+Downloading the checkpoints from the model zoo and putting them under the ckpts folder.
+
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py \
---eval --ckpt_path .ckpts/best.ckpt \
+--eval --ckpt_path ./ckpts/CGFormer_semantickitti.ckpt \
 --config_path configs/semantickitti_CGFormer.py \
 --log_folder semantickitti_CGFormer_eval --seed 7240 \
 --log_every_n_steps 100
@@ -28,7 +30,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py \
 
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py \
---eval --ckpt_path .ckpts/best.ckpt \
+--eval --ckpt_path ./ckpts/CGFormer_semantickitti.ckpt \
 --config_path configs/semantickitti_CGFormer.py \
 --log_folder semantickitti_CGFormer_eval --seed 7240 \
 --log_every_n_steps 100 --save_path pred
@@ -40,7 +42,7 @@ The results will be saved into the save_path.
 
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py \
---eval --ckpt_path .ckpts/best.ckpt \
+--eval --ckpt_path ./ckpts/CGFormer_semantickitti.ckpt \
 --config_path configs/semantickitti_CGFormer.py \
 --log_folder semantickitti_CGFormer_eval --seed 7240 \
 --log_every_n_steps 100 --save_path pred --test_mapping
