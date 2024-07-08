@@ -29,6 +29,17 @@ step 2. Refer to [dataset.md](./docs/dataset.md) to prepare SemanticKITTI and KI
 
 step 3. Refer to [train_and_eval.md](./docs/train_and_eval.md) for training and evaluation.
 
+## Model Zoo
+
+We provide the pretrained weights on SemanticKITTI and KITTI360 datasets, reproduced with the released codebase.
+
+
+
+|                      Dataset                       |    Backbone    |        IoU         |        mIoU        |                        Model Weights                         |                        Training Logs                         |
+| :------------------------------------------------: | :------------: | :----------------: | :----------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| [SemanticKITTI](configs/semantickitti_CGFormer.py) | EfficientNetB7 | 44.41, 45.99 (val) | 16.63, 16.89 (val) | [Link](https://github.com/pkqbajng/CGFormer/releases/download/v1.0/CGFormer_semantickitti.ckpt) | [Link](https://github.com/pkqbajng/CGFormer/releases/download/v1.0/CGFormer_semantickitti_logs.zip) |
+|   [KITTI360](configs/semantickitti_CGFormer.py)    | EfficientNetB7 |       48.07        |       20.05        | [Link](https://github.com/pkqbajng/CGFormer/releases/download/v1.0/CGFormer_kitti360.ckpt) | [Link](https://github.com/pkqbajng/CGFormer/releases/download/v1.0/CGFormer_kitti360_logs.zip) |
+
 ## Acknowledgement
 
 Many thanks to these exceptional open source projects:
@@ -63,5 +74,4 @@ If you encounter any issues, please contact zhu.yu.pk@gmail.com.
 
 ## To do
 
-- Create a Model Zoo
 - Visualization scripts
