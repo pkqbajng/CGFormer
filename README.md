@@ -62,7 +62,7 @@ If you find our work beneficial for your research, please consider citing our pa
 ```
 @article{yu2024context,
   title={Context and Geometry Aware Voxel Transformer for Semantic Scene Completion},
-  author={Yu, Zhu and Zhang, Runming and Ying, Jiacheng and Yu, Junchen and Hu, Xiaohai and Luo, Lun and Cao, Siyuan and Shen, Huiliang},
+  author={Yu, Zhu and Zhang, Runmin and Ying, Jiacheng and Yu, Junchen and Hu, Xiaohai and Luo, Lun and Cao, Si-Yuan and Shen, Hui-Liang},
   journal={arXiv preprint arXiv:2405.13675},
   year={2024}
 }
