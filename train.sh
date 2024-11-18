@@ -1,6 +1,8 @@
 CUDA_VISIBLE_DEVICES=0,1,2,3 \
-python main.py \
---config_path configs/semantickitti_CGFormer.py \
---log_folder semantickitti_CGFormer \
+nohup python main.py \
+--config_path configs/CGFormer-Efficient-Swin-SemanticKITTI-Pretrain.py \
+--log_folder CGFormer-Efficient-Swin-SemanticKITTI-Pretrain \
 --seed 7240 \
---log_every_n_steps 100 
+--pretrain \
+--log_every_n_steps 100 \
+> CGFormer-Efficient-Swin-SemanticKITTI-Pretrain.log 2>&1 &

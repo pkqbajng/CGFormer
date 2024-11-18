@@ -2,10 +2,11 @@ import os
 import misc
 import torch
 from mmcv import Config
+from mmdet3d_plugin import *
 import pytorch_lightning as pl
 from argparse import ArgumentParser
-from tools.pl_model import pl_model
-from tools.dataset_dm import DataModule
+from LightningTools.pl_model import pl_model
+from LightningTools.dataset_dm import DataModule
 from pytorch_lightning import loggers as pl_loggers
 from pytorch_lightning.profiler import SimpleProfiler
 from pytorch_lightning.strategies.ddp import DDPStrategy
@@ -22,7 +23,9 @@ def parse_config():
     parser.add_argument('--submit', action='store_true')
     parser.add_argument('--eval', action='store_true')
     parser.add_argument('--log_every_n_steps', type=int, default=1000)
-    
+    parser.add_argument('--check_val_every_n_epoch', type=int, default=1)
+    parser.add_argument('--pretrain', action='store_true')
+
     args = parser.parse_args()
     cfg = Config.fromfile(args.config_path)
 
@@ -73,7 +76,7 @@ if __name__ == '__main__':
             profiler=profiler,
             sync_batchnorm=True,
             log_every_n_steps=config['log_every_n_steps'],
-            check_val_every_n_epoch=1
+            check_val_every_n_epoch=config['check_val_every_n_epoch']
         )
         trainer.fit(model=model, datamodule=data_dm)
     else:
