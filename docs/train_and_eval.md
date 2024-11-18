@@ -47,3 +47,23 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py \
 --log_folder CGFormer-Efficient-Swin-SemanticKITTI-eval --seed 7240 \
 --log_every_n_steps 100 --save_path pred --test_mapping
 ```
+
+## Pretrain
+
+Using the following script to pretrain the depth net and context net.
+
+```shell
+CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py \
+--config_path configs/CGFormer-Efficient-Swin-SemanticKITTI-Pretrain.py \
+--log_folder CGFormer-Efficient-Swin-SemanticKITTI-Pretrain \
+--seed 7240 \
+--pretrain \
+--log_every_n_steps 100
+```
+
+Then using the organize_ckpt.py to extract weights for initialization.
+
+```
+python organize_ckpt.py --source_path logs/CGFormer-Efficient-Swin-SemanticKITTI-Pretrain/tensorboard/version_0/checkpoints/best.ckpt --dst_path ckpts/efficientnet-seg-depth.pth
+```
+
