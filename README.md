@@ -29,7 +29,7 @@ step 2. Refer to [dataset.md](./docs/dataset.md) to prepare SemanticKITTI and KI
 
 step 3. Refer to [train_and_eval.md](./docs/train_and_eval.md) for training and evaluation.
 
-step 4. Refer to [visualize.md](./visualization.md) for training and evaluation.
+step 4. Refer to [visualize.md](./docs/visualization.md) for training and evaluation.
 
 ## Model Zoo
 
