@@ -1,5 +1,5 @@
-data_root = 'data/SSCBenchKITTI360/SSCBenchKITTI360'
-ann_file = 'data/SSCBenchKITTI360/SSCBenchKITTI360/labels'
+data_root = 'data/SSCBenchKITTI360'
+ann_file = 'data/SSCBenchKITTI360/labels'
 stereo_depth_root = 'data/SSCBenchKITTI360/depth'
 camera_used = ['left']
 
