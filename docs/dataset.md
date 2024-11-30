@@ -3,7 +3,7 @@
 Download the [KITTI Odometry Dataset](https://www.cvlibs.net/datasets/kitti/eval_odometry.php) (including color, velodyne laser data, and calibration files) and the annotations for Semantic Scene Completion from [SemanticKITTI](http://www.semantic-kitti.org/dataset.html#download). Please follow the command [image2depth_semantickitti](../preprocess/image2depth_semantickitti.sh) to create depth maps and preprocess the annotations for semantic scene completion:
 
 ```bash
-python tools/semantic_kitti/preprocess.py --kitti_root data/SemanticKITTI --kitti_preprocess_root data/SemanticKITTI --data_info_path configs/semantic-kitti.yaml
+python tools/preprocess.py --kitti_root data/SemanticKITTI --kitti_preprocess_root data/SemanticKITTI
 ```
 
 ### Folder structure
