@@ -1,6 +1,6 @@
 ## Training Details
 
-We train CGFormer for 25 epochs on 4 NVIDIA 4090 GPUs, with a batch size of 4. It approximately consumes 19GB of GPU memory on each GPU during the training phase. Before start training, download the corresponding pretrained checkpoints ([efficientnet](https://github.com/pkqbajng/CGFormer/releases/download/v1.0/efficientnet-b7_3rdparty_8xb32-aa_in1k_20220119-bf03951c.pth), [pretrain-ckpt](https://github.com/pkqbajng/CGFormer/releases/download/v1.0/pretrain_geodepth.pth) and [swin tiny](https://github.com/pkqbajng/CGFormer/releases/download/v1.0/swin_tiny_patch4_window7_224.pth)) and put them under the folder pretrain.
+We train CGFormer for 25 epochs on 4 NVIDIA 4090 GPUs, with a batch size of 4. It approximately consumes 19GB of GPU memory on each GPU during the training phase. Before start training, download the corresponding pretrained checkpoints ([efficientnet](https://github.com/pkqbajng/CGFormer/releases/download/v1.0/efficientnet-b7_3rdparty_8xb32-aa_in1k_20220119-bf03951c.pth), [pretrain-ckpt](https://github.com/pkqbajng/CGFormer/releases/download/v1.0/efficientnet-seg-depth.pth) and [swin tiny](https://github.com/pkqbajng/CGFormer/releases/download/v1.0/swin_tiny_patch4_window7_224.pth)) and put them under the folder ckpts.
 
 ## Train
 
