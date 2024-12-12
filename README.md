@@ -2,7 +2,7 @@
 
 ## 🚀 News
 
-- **2024.12.12** We also evaluate the depth refinement on the camera-radar 3D object detection. Please refer to [SGDet3D](https://github.com/shawnnnkb/SGDet3D)
+- **2024.12.12** We also evaluate the depth refinement block on the camera-radar 3D object detection. Please refer to [SGDet3D](https://github.com/shawnnnkb/SGDet3D)
 - **2024.5.27** code released
 - **2024.5.24** [**arXiv**](https://arxiv.org/pdf/2405.13675v4) preprint released
 
