@@ -69,12 +69,6 @@ If you find our work beneficial for your research, please consider citing our pa
   booktitle = {Advances in Neural Information Processing Systems},
   year={2024}
 }
-
-@ARTICLE{SGDet3D,
-  author={Bai, Xiaokai and Yu, Zhu and Zheng, Lianqing and Zhang, Xiaohan and Zhou, Zili and Zhang, Xue and Wang, Fang and Bai, Jie and Shen, Hui-Liang},
-  journal={IEEE Robotics and Automation Letters}, 
-  title={SGDet3D: Semantics and Geometry Fusion for 3D Object Detection Using 4D Radar and Camera}, 
-  year={2024}}
 ```
 
 If you encounter any issues, please contact zhu.yu.pk@gmail.com.
