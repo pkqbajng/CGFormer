@@ -63,11 +63,14 @@ As it is not possible to list all the projects of the reference papers. If you f
 If you find our work beneficial for your research, please consider citing our paper and give us a star:
 
 ```
+
 @inproceedings{CGFormer,
-  title={Context and Geometry Aware Voxel Transformer for Semantic Scene Completion},
-  author={Yu, Zhu and Zhang, Runmin and Ying, Jiacheng and Yu, Junchen and Hu, Xiaohai and Luo, Lun and Cao, Si-Yuan and Shen, Hui-Liang},
-  booktitle = {Advances in Neural Information Processing Systems},
-  year={2024}
+ author = {Yu, Zhu and Zhang, Runmin and Ying, Jiacheng and Yu, Junchen and Hu, Xiaohai and Luo, Lun and Cao, Si-Yuan and Shen, Hui-liang},
+ booktitle = {Advances in Neural Information Processing Systems},
+ pages = {1531--1555},
+ title = {Context and Geometry Aware Voxel Transformer for Semantic Scene Completion},
+ volume = {37},
+ year = {2024}
 }
 ```
 
