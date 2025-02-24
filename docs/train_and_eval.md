@@ -64,6 +64,6 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py \
 Then using the organize_ckpt.py to extract weights for initialization.
 
 ```
-python organize_ckpt.py --source_path logs/CGFormer-Efficient-Swin-SemanticKITTI-Pretrain/tensorboard/version_0/checkpoints/best.ckpt --dst_path ckpts/efficientnet-seg-depth.pth
+python organize_ckpt.py --source_path logs/CGFormer-Efficient-Swin-SemanticKITTI-Pretrain/tensorboard/version_0/checkpoints/latest.ckpt --dst_path ckpts/efficientnet-seg-depth.pth
 ```
 
