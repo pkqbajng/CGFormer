@@ -1,7 +1,7 @@
 # Context and Geometry Aware Voxel Transformer for Semantic Scene Completion
 
 ## 🚀 News
-
+- **2025.6.21** We present [VoxDet](https://github.com/vita-epfl/VoxDet), a much more powerful method for semantic scene completion.
 - **2024.12.12** We also evaluate the depth refinement block on the camera-radar 3D object detection. Please refer to [SGDet3D](https://github.com/shawnnnkb/SGDet3D)
 - **2024.5.27** code released
 - **2024.5.24** [**arXiv**](https://arxiv.org/pdf/2405.13675v4) preprint released
