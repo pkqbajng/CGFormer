@@ -1,7 +1,7 @@
 # Context and Geometry Aware Voxel Transformer for Semantic Scene Completion
 
 ## 🚀 News
-- **2025.08.04** We present [SGCDet](https://github.com/RM-Zhang/SGCDet), state-of-the-art method for indoor 3D object detection.
+- **2025.08.04** We present [SGCDet](https://github.com/RM-Zhang/SGCDet), a state-of-the-art method for indoor 3D object detection.
 - **2025.06.21** We present [VoxDet](https://github.com/vita-epfl/VoxDet), a much more powerful method for semantic scene completion.
 - **2024.12.12** We also evaluate the depth refinement block on the camera-radar 3D object detection. Please refer to [SGDet3D](https://github.com/shawnnnkb/SGDet3D)
 - **2024.05.27** code released
